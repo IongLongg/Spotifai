@@ -21,6 +21,10 @@ export type AlbumDTO = {
   id: string;
   artistsHeadline: string;
   imageUri: string;
+  name: string;
+  numberOfLikes: number;
+  by: string;
+  songs: SongDTO[];
 };
 
 export type SongDTO = {

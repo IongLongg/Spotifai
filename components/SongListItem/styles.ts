@@ -8,11 +8,11 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "white",
-    fontSize: 20,
+    fontSize: 18,
   },
   artist: {
     color: "gray",
-    fontSize: 15,
+    fontSize: 13,
   },
   image: {
     width: 75,

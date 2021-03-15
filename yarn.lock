@@ -1136,7 +1136,7 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
-"@expo/config-plugins@1.0.21":
+"@expo/config-plugins@1.0.21", "@expo/config-plugins@~1.0.13":
   version "1.0.21"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-1.0.21.tgz#5a6f5c818dd7bccc2f3e381cbf8b0657c38bb302"
   integrity sha512-sMTF0/lx52ovJPz9iH5l0aKRpPFFtYoAQ+38AYhXI890Sswr1UU4Pq3IA5RMdvtOTkTzNREr21WvEHd7X8D1dA==
@@ -3696,6 +3696,15 @@ expo-asset@~8.2.1:
     md5-file "^3.2.3"
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
+
+expo-av@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/expo-av/-/expo-av-9.0.0.tgz#76b5dbb006bfddf5b6ce43151d8f3a9eb66c7fa5"
+  integrity sha512-VAMt/iPNeG33G1ycf2zhlZ+I7Ymuh3FYk9XL85jMrGOn6prW4C1tRp5YczZqgunLd5dzeBhunHCTlZn7WODP6g==
+  dependencies:
+    "@expo/config-plugins" "~1.0.13"
+    lodash "^4.17.15"
+    nullthrows "^1.1.0"
 
 expo-constants@~9.3.0, expo-constants@~9.3.3:
   version "9.3.5"
